@@ -15,31 +15,39 @@
   <body>
 
     <div id="page1" name="aboutMe">
+      <div class="navBar">
+        <a href="#" onclick="return show('page2','page1','page3','page4');">Test Form</a>
+        <a href="#" onclick="return show('page3','page1','page2','page4');">Social Media</a>
+        <a href="#" onclick="return show('page4','page1','page2','page3');">Gallery</a>
+      </div>
       Page 1 Content
-      <a href="#" onclick="return show('page2','page1','page3','page4');">Test Form</a>
-      <a href="#" onclick="return show('page3','page1','page2','page4');">Social Media</a>
-      <a href="#" onclick="return show('page4','page1','page2','page3');">Gallery</a>
     </div>
 
     <div id="page2" name="testForm" style="display:none">
+      <div class="navBar">
+        <a href="#" onclick="return show('page1','page2','page3','page4');">About Me</a>
+        <a href="#" onclick="return show('page3','page1','page2','page4');">Social Media</a>
+        <a href="#" onclick="return show('page4','page1','page2','page3');">Gallery</a>
+      </div>
       Page 2 Content
-      <a href="#" onclick="return show('page1','page2','page3','page4');">About Me</a>
-      <a href="#" onclick="return show('page3','page1','page2','page4');">Social Media</a>
-      <a href="#" onclick="return show('page4','page1','page2','page3');">Gallery</a>
     </div>
 
     <div id="page3" name="socialMedia" style="display:none">
+      <div class="navBar">
+        <a href="#" onclick="return show('page1','page2','page3','page4');">About Me</a>
+        <a href="#" onclick="return show('page2','page1','page3','page4');">Test Form</a>
+        <a href="#" onclick="return show('page4','page1','page2','page3');">Gallery</a>
+      </div>
       Page 3 Content
-      <a href="#" onclick="return show('page1','page2','page3','page4');">About Me</a>
-      <a href="#" onclick="return show('page2','page1','page3','page4');">Test Form</a>
-      <a href="#" onclick="return show('page4','page1','page2','page3');">Gallery</a>
     </div>
 
     <div id="page4" name="gallery" style="display:none">
+      <div class="navBar">
+        <a href="#" onclick="return show('page1','page2','page3','page4');">About Me</a>
+        <a href="#" onclick="return show('page2','page1','page3','page4');">Test Form</a>
+        <a href="#" onclick="return show('page3','page1','page2','page4');">Social Media</a>
+      </div>
       Page 4 Content
-      <a href="#" onclick="return show('page1','page2','page3','page4');">About Me</a>
-      <a href="#" onclick="return show('page2','page1','page3','page4');">Test Form</a>
-      <a href="#" onclick="return show('page3','page1','page2','page4');">Social Media</a>
     </div>
 
   </body>
