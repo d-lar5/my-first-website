@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>d-lar5's First Website</title>
+  <script>
+    function show(shown, hidden1, hidden2, hidden3) {
+      document.getElementById(shown).style.display="block";
+      document.getElementById(hidden1).style.display="none";
+      document.getElementById(hidden2).style.display="none";
+      document.getElementById(hidden3).style.display="none";
+      return false;
+    }
+  </script>
+  </head>
+  <body>
+
+    <div id="page1" name="aboutMe">
+      Page 1 Content
+      <a href="#" onclick="return show('page2','page1','page3','page4');">Test Form</a>
+      <a href="#" onclick="return show('page3','page1','page2','page4');">Social Media</a>
+      <a href="#" onclick="return show('page4','page1','page2','page3');">Gallery</a>
+    </div>
+
+    <div id="page2" name="testForm" style="display:none">
+      Page 2 Content
+      <a href="#" onclick="return show('page1','page2','page3','page4');">About Me</a>
+      <a href="#" onclick="return show('page3','page1','page2','page4');">Social Media</a>
+      <a href="#" onclick="return show('page4','page1','page2','page3');">Gallery</a>
+    </div>
+
+    <div id="page3" name="socialMedia" style="display:none">
+      Page 3 Content
+      <a href="#" onclick="return show('page1','page2','page3','page4');">About Me</a>
+      <a href="#" onclick="return show('page2','page1','page3','page4');">Test Form</a>
+      <a href="#" onclick="return show('page4','page1','page2','page3');">Gallery</a>
+    </div>
+
+    <div id="page4" name="gallery" style="display:none">
+      Page 4 Content
+      <a href="#" onclick="return show('page1','page2','page3','page4');">About Me</a>
+      <a href="#" onclick="return show('page2','page1','page3','page4');">Test Form</a>
+      <a href="#" onclick="return show('page3','page1','page2','page4');">Social Media</a>
+    </div>
+
+  </body>
+</html>
