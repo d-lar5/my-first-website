@@ -75,11 +75,17 @@ button {
 }
 
 a {
-  color: mediumaquamarine
+  color: mediumaquamarine;
 }
 
 a:visited {
   color: plum
+}
+
+li {
+  padding: 1em;
+  color: mediumaquamarine;
+  font-size: 24px;
 }
 
 .gallery {
