@@ -1,3 +1,5 @@
+/* General elements */
+
 body {
   background-color: lavender;
 }
@@ -5,11 +7,19 @@ body {
 h1 {
   color: royalblue;
   text-align: center;
-  padding: 2em;
+  padding: 1em;
+  font-size: 36px;
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
 h2 {
   color: mediumaquamarine;
+  padding: .25em 0;
+  font-size: 26px;
+}
+
+p {
+  font-size: 18px;
 }
 
 .navBar {
@@ -18,6 +28,8 @@ h2 {
   font-size: 28px;
 }
 
+/* Page 1: About Me */
+
 #ness {
   display: block;
   margin-left: auto;
@@ -25,6 +37,8 @@ h2 {
   width: 414px;
   height: 552px;
 }
+
+/* Page 2: Test Form */
 
 fieldset {
   margin: 2em 0;
@@ -74,6 +88,8 @@ button {
   color: royalblue;
 }
 
+/* Page 3: Social Media */
+
 a {
   color: mediumaquamarine;
 }
@@ -87,6 +103,8 @@ li {
   color: mediumaquamarine;
   font-size: 24px;
 }
+
+/* Page 4: Gallery */
 
 .gallery {
   display: grid;
