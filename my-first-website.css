@@ -4,6 +4,7 @@ body {
 
 h1 {
   color: royalblue;
+  text-align: center;
 }
 
 h2 {
@@ -11,6 +12,9 @@ h2 {
 }
 
 #ness {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 414px;
   height: 552px;
 }
