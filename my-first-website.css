@@ -92,16 +92,22 @@ button {
 
 a {
   color: mediumaquamarine;
+  text-decoration: none;
 }
 
 a:visited {
   color: plum
 }
 
+ul {
+  display: flex;
+  justify-content: center;
+}
+
 li {
   padding: 1em;
-  color: mediumaquamarine;
-  font-size: 24px;
+  list-style-type: none;
+  font-size: 60px;
 }
 
 /* Page 4: Gallery */
